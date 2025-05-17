@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Leilão</title>
+        <meta name="robots" content="max-image-preview:large">
+        <style>
+            img:is([sizes="auto" i], [sizes^="auto," i]) {
+                contain-intrinsic-size: 3000px 1500px
+            }
+        </style>
+        <link rel="alternate" type="application/rss+xml" title="Feed para Noticias leilão �" href="https://testewordpress.shop/feed/">
+        <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Noticias leilão �" href="https://testewordpress.shop/comments/feed/">
+        <script>
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/testewordpress.shop\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"
+                }
+            };
+            /*! This file is auto-generated */
+            !function(i, n) {
+                var o, s, e;
+                function c(e) {
+                    try {
+                        var t = {
+                            supportTests: e,
+                            timestamp: (new Date).valueOf()
+                        };
+                        sessionStorage.setItem(o, JSON.stringify(t))
+                    } catch (e) {}
+                }
+                function p(e, t, n) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(t, 0, 0);
+                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
+                      , r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+                    e.fillText(n, 0, 0),
+                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                    return t.every(function(e, t) {
+                        return e === r[t]
+                    })
+                }
+                function u(e, t, n) {
+                    switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
+                    }
+                    return !1
+                }
+                function f(e, t, n) {
+                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : i.createElement("canvas")
+                      , a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    })
+                      , o = (a.textBaseline = "top",
+                    a.font = "600 32px Arial",
+                    {});
+                    return e.forEach(function(e) {
+                        o[e] = t(a, e, n)
+                    }),
+                    o
+                }
+                function t(e) {
+                    var t = i.createElement("script");
+                    t.src = e,
+                    t.defer = !0,
+                    i.head.appendChild(t)
+                }
+                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
+                s = ["flag", "emoji"],
+                n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                },
+                e = new Promise(function(e) {
+                    i.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }
+                ),
+                new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
+                                return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
+                            try {
+                                var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));"
+                                  , r = new Blob([e],{
+                                    type: "text/javascript"
+                                })
+                                  , a = new Worker(URL.createObjectURL(r),{
+                                    name: "wpTestEmojiSupports"
+                                });
+                                return void (a.onmessage = function(e) {
+                                    c(n = e.data),
+                                    a.terminate(),
+                                    t(n)
+                                }
+                                )
+                            } catch (e) {}
+                        c(n = f(s, u, p))
+                    }
+                    t(n)
+                }
+                ).then(function(e) {
+                    for (var t in e)
+                        n.supports[t] = e[t],
+                        n.supports.everything = n.supports.everything && n.supports[t],
+                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
+                    n.DOMReady = !1,
+                    n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(),
+                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
+                    t(e.wpemoji)))
+                }))
+            }((window,
+            document), window._wpemojiSettings);
+        </script>
+        <style id="wp-emoji-styles-inline-css">
+            img.wp-smiley, img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <style id="global-styles-inline-css">
+            :root {
+                --wp--preset--aspect-ratio--square: 1;
+                --wp--preset--aspect-ratio--4-3: 4/3;
+                --wp--preset--aspect-ratio--3-4: 3/4;
+                --wp--preset--aspect-ratio--3-2: 3/2;
+                --wp--preset--aspect-ratio--2-3: 2/3;
+                --wp--preset--aspect-ratio--16-9: 16/9;
+                --wp--preset--aspect-ratio--9-16: 9/16;
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :root {
+                --wp--style--global--content-size: 800px;
+                --wp--style--global--wide-size: 1200px;
+            }
+
+            :where(body) {
+                margin: 0;
+            }
+
+            .wp-site-blocks > .alignleft {
+                float: left;
+                margin-right: 2em;
+            }
+
+            .wp-site-blocks > .alignright {
+                float: right;
+                margin-left: 2em;
+            }
+
+            .wp-site-blocks > .aligncenter {
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            :where(.wp-site-blocks) > * {
+                margin-block-start: 24px; margin-block-end: 0; }
+
+            :where(.wp-site-blocks) > :first-child {
+                margin-block-start: 0; }
+
+            :where(.wp-site-blocks) > :last-child {
+                margin-block-end: 0; }
+
+            :root {
+                --wp--style--block-gap: 24px;
+            }
+
+            :root :where(.is-layout-flow) > :first-child {
+                margin-block-start: 0;}
+
+            :root :where(.is-layout-flow) > :last-child {
+                margin-block-end: 0;}
+
+            :root :where(.is-layout-flow) > * {
+                margin-block-start: 24px;margin-block-end: 0;}
+
+            :root :where(.is-layout-constrained) > :first-child {
+                margin-block-start: 0;}
+
+            :root :where(.is-layout-constrained) > :last-child {
+                margin-block-end: 0;}
+
+            :root :where(.is-layout-constrained) > * {
+                margin-block-start: 24px;margin-block-end: 0;}
+
+            :root :where(.is-layout-flex) {
+                gap: 24px;
+            }
+
+            :root :where(.is-layout-grid) {
+                gap: 24px;
+            }
+
+            .is-layout-flow > .alignleft {
+                float: left;
+                margin-inline-start: 0;margin-inline-end: 2em;}
+
+            .is-layout-flow > .alignright {
+                float: right;
+                margin-inline-start: 2em;margin-inline-end: 0;}
+
+            .is-layout-flow > .aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .is-layout-constrained > .alignleft {
+                float: left;
+                margin-inline-start: 0;margin-inline-end: 2em;}
+
+            .is-layout-constrained > .alignright {
+                float: right;
+                margin-inline-start: 2em;margin-inline-end: 0;}
+
+            .is-layout-constrained > .aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+                max-width: var(--wp--style--global--content-size);
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .is-layout-constrained > .alignwide {
+                max-width: var(--wp--style--global--wide-size);
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .is-layout-flex > :is(*, div) {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            .is-layout-grid > :is(*, div) {
+                margin: 0;
+            }
+
+            body {
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+
+            a:where(:not(.wp-element-button)) {
+                text-decoration: underline;
+            }
+
+            :root :where(.wp-element-button, .wp-block-button__link) {
+                background-color: #32373c;
+                border-width: 0;
+                color: #fff;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+                padding: calc(0.667em + 2px) calc(1.333em + 2px);
+                text-decoration: none;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            :root :where(.wp-block-pullquote) {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel="stylesheet" id="hello-elementor-css" href="css/style.min.css" media="all">
+        <link rel="stylesheet" id="hello-elementor-theme-style-css" href="css/theme.min.css" media="all">
+        <link rel="stylesheet" id="hello-elementor-header-footer-css" href="css/header-footer.min.css" media="all">
+        <link rel="stylesheet" id="elementor-frontend-css" href="css/frontend.min.css" media="all">
+        <link rel="stylesheet" id="elementor-post-5-css" href="css/post-5.css" media="all">
+        <link rel="stylesheet" id="widget-image-css" href="css/widget-image.min.css" media="all">
+        <link rel="stylesheet" id="widget-text-editor-css" href="css/widget-text-editor.min.css" media="all">
+        <link rel="stylesheet" id="swiper-css" href="css/swiper.min.css" media="all">
+        <link rel="stylesheet" id="e-swiper-css" href="css/e-swiper.min.css" media="all">
+        <link rel="stylesheet" id="widget-image-carousel-css" href="css/widget-image-carousel.min.css" media="all">
+        <link rel="stylesheet" id="widget-icon-list-css" href="css/widget-icon-list.min.css" media="all">
+        <link rel="stylesheet" id="widget-heading-css" href="css/widget-heading.min.css" media="all">
+        <link rel="stylesheet" id="widget-countdown-css" href="css/widget-countdown.min.css" media="all">
+        <link rel="stylesheet" id="widget-divider-css" href="css/widget-divider.min.css" media="all">
+        <link rel="stylesheet" id="widget-icon-box-css" href="css/widget-icon-box.min.css" media="all">
+        <link rel="stylesheet" id="widget-testimonial-css" href="css/widget-testimonial.min.css" media="all">
+        <link rel="stylesheet" id="widget-nested-accordion-css" href="css/widget-nested-accordion.min.css" media="all">
+        <link rel="stylesheet" id="elementor-post-11-css" href="css/post-11.css" media="all">
+        <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.7.2" media="all">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link rel="https://api.w.org/" href="https://testewordpress.shop/wp-json/">
+        <link rel="alternate" title="JSON" type="application/json" href="https://testewordpress.shop/wp-json/wp/v2/pages/11">
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://testewordpress.shop/xmlrpc.php?rsd">
+        <meta name="generator" content="WordPress 6.7.2">
+        <link rel="canonical" href="https://testewordpress.shop/leilao/">
+        <link rel="shortlink" href="https://testewordpress.shop/?p=11">
+        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://testewordpress.shop/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftestewordpress.shop%2Fleilao%2F">
+        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://testewordpress.shop/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftestewordpress.shop%2Fleilao%2F&format=xml">
+        <meta name="generator" content="Elementor 3.26.4; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+        <style>
+            .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+
+            @media screen and (max-height: 1024px) {
+                .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                    background-image: none !important;
+                }
+            }
+
+            @media screen and (max-height: 640px) {
+                .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                    background-image: none !important;
+                }
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    </head>
+    <body class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
+        <div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11" data-elementor-post-type="page">
+            <div class="elementor-element elementor-element-735b1fb header e-flex e-con-boxed e-con e-parent" data-id="735b1fb" data-element_type="container" data-settings="{" background_background":" classic"}"="">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-fe37c33 elementor-widget elementor-widget-image" data-id="fe37c33" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img fetchpriority="high" decoding="async" width="2560" height="797" src="images/Vivo-roxo.png" class="attachment-full size-full wp-image-377" alt="" srcset="images/Vivo-roxo.png 2560w, images/Vivo-roxo-300x93.png 300w, images/Vivo-roxo-1024x319.png 1024w, images/Vivo-roxo-768x239.png 768w, images/Vivo-roxo-1536x478.png 1536w, images/Vivo-roxo-2048x638.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-b278456 e-con-full e-flex e-con e-parent" data-id="b278456" data-element_type="container">
+                <div class="elementor-element elementor-element-b06c1fd elementor-widget elementor-widget-text-editor" data-id="b06c1fd" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                        <p>
+                            Lotes disponíveis em 
+                            <b>
+                                <span id="address">São Paulo/SP</span>
+                            </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-23d5acb e-flex e-con-boxed e-con e-parent" data-id="23d5acb" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-b86aaf6 e-con-full e-flex e-con e-child" data-id="b86aaf6" data-element_type="container">
+                        <div class="elementor-element elementor-element-f866b73 elementor-arrows-position-inside elementor-widget elementor-widget-image-carousel" data-id="f866b73" data-element_type="widget" data-settings="{" slides_to_show":" 1"," navigation":" arrows"," autoplay":" yes"," pause_on_hover":" yes"," pause_on_interaction":" yes"," autoplay_speed ":5000," infinite":" yes"," effect":" slide"," speed ":500}"="" data-widget_type="image-carousel.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-image-carousel-wrapper swiper" role="region" aria-roledescription="carousel" aria-label="Carrossel de imagens" dir="ltr">
+                                    <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+                                        <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 de 1">
+                                            <figure class="swiper-slide-inner">
+                                                <img decoding="async" class="swiper-slide-image" src="images/3ba31892-b225-43e9-aa03-699f9886a3df.jpg" alt="3ba31892-b225-43e9-aa03-699f9886a3df">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-3b4d9f1 elementor-align-left elementor-hidden-tablet elementor-hidden-mobile elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3b4d9f1" data-element_type="widget" data-widget_type="icon-list.default">
+                            <div class="elementor-widget-container">
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-exclamation-triangle" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">Cada usuário tem até 17 minutos para realizar a compra enquanto o botão "Comprar" estiver disponível nesta página.</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-box" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M509.5 184.6L458.9 32.8C452.4 13.2 434.1 0 413.4 0H272v192h238.7c-.4-2.5-.4-5-1.2-7.4zM240 0H98.6c-20.7 0-39 13.2-45.5 32.8L2.5 184.6c-.8 2.4-.8 4.9-1.2 7.4H240V0zM0 224v240c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V224H0z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">Produtos novos sem marcas de uso.</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-truck" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">Frete via JadLog  para todo o Brasil.</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-clock" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">30 dias para trocas/reembolsos (mal funcionamento/defeitos).</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-7261ce8 e-con-full e-flex e-con e-child" data-id="7261ce8" data-element_type="container">
+                        <div class="elementor-element elementor-element-c7562b1 e-con-full e-flex e-con e-child" data-id="c7562b1" data-element_type="container">
+                            <div class="elementor-element elementor-element-86f0726 elementor-widget elementor-widget-heading" data-id="86f0726" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">IPHONE 12 PRO MAX</h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-37ae86e elementor-widget elementor-widget-text-editor" data-id="37ae86e" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>
+                                        <strong>Venda parcial se encerra:</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-f753448 elementor-countdown--label-block elementor-widget elementor-widget-countdown" data-id="f753448" data-element_type="widget" data-widget_type="countdown.default">
+                                <div class="elementor-widget-container">
+                                    <div data-evergreen-interval="86400" class="elementor-countdown-wrapper" data-date="">
+                                        <div class="elementor-countdown-item">
+                                            <span class="elementor-countdown-digits elementor-countdown-hours"></span>
+                                            <span class="elementor-countdown-label">Horas</span>
+                                        </div>
+                                        <div class="elementor-countdown-item">
+                                            <span class="elementor-countdown-digits elementor-countdown-minutes"></span>
+                                            <span class="elementor-countdown-label">Minutos</span>
+                                        </div>
+                                        <div class="elementor-countdown-item">
+                                            <span class="elementor-countdown-digits elementor-countdown-seconds"></span>
+                                            <span class="elementor-countdown-label">Segundos</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-182f15b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="182f15b" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-d9bb3a6 e-con-full e-flex e-con e-child" data-id="d9bb3a6" data-element_type="container">
+                            <div class="elementor-element elementor-element-467dcb0 elementor-widget elementor-widget-text-editor" data-id="467dcb0" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-element elementor-element-45a0f89 elementor-widget elementor-widget-text-editor" data-id="45a0f89" data-element_type="widget" data-widget_type="text-editor.default">
+                                        <div class="elementor-widget-container">
+                                            <strong>
+                                                <span style="color: #000000;">VISITAS: 8788    COMPRADORES: 3441    LANCES: 3441</span>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-1718fb1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1718fb1" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-47196c2 e-con-full e-grid e-con e-child" data-id="47196c2" data-element_type="container">
+                            <div class="elementor-element elementor-element-0d2b68b elementor-widget elementor-widget-text-editor" data-id="0d2b68b" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-element elementor-element-45a0f89 elementor-widget elementor-widget-text-editor" data-id="45a0f89" data-element_type="widget" data-widget_type="text-editor.default">
+                                        <div class="elementor-widget-container">
+                                            <strong>
+                                                <span style="color: #000000;">Data de abertura: 16/05/2025</span>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-10ed0cb elementor-widget elementor-widget-text-editor" data-id="10ed0cb" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-element elementor-element-45a0f89 elementor-widget elementor-widget-text-editor" data-id="45a0f89" data-element_type="widget" data-widget_type="text-editor.default">
+                                        <div class="elementor-widget-container">
+                                            <strong>
+                                                <span style="color: #000000;">Origem: MOSTRUÁRIO</span>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-e9f78be elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e9f78be" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-f5a47c1 e-con-full e-flex e-con e-child" data-id="f5a47c1" data-element_type="container">
+                            <div class="elementor-element elementor-element-6dade2b e-con-full e-flex e-con e-child" data-id="6dade2b" data-element_type="container">
+                                <div class="elementor-element elementor-element-9b74c52 elementor-widget elementor-widget-heading" data-id="9b74c52" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">UM IPHONE 12 PRO MAX (1 UNIDADE)</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-ab46d0b elementor-widget elementor-widget-heading" data-id="ab46d0b" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">R$ 112,53</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-f3b8438 e-con-full e-flex e-con e-child" data-id="f3b8438" data-element_type="container">
+                                <div class="elementor-element elementor-element-0d4ceaa elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="0d4ceaa" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon elementor-animation-">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-bookmark" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="elementor-icon-box-content">
+                                                <p class="elementor-icon-box-description">Esgotado					</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-2e2e05a elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="2e2e05a" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">ESGOTADO</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-35d0542 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="35d0542" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-03e8f03 e-con-full e-flex e-con e-child" data-id="03e8f03" data-element_type="container">
+                            <div class="elementor-element elementor-element-e18927a e-con-full e-flex e-con e-child" data-id="e18927a" data-element_type="container">
+                                <div class="elementor-element elementor-element-5c91d37 elementor-widget elementor-widget-heading" data-id="5c91d37" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">UM IPHONE 14 256GB (1 UNIDADE)</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-32262f1 elementor-widget elementor-widget-heading" data-id="32262f1" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">R$ 162,88</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-c5def35 e-con-full e-flex e-con e-child" data-id="c5def35" data-element_type="container">
+                                <div class="elementor-element elementor-element-2be6a5b elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="2be6a5b" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon elementor-animation-">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-bookmark" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="elementor-icon-box-content">
+                                                <p class="elementor-icon-box-description">74 Disponíveis					</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-6696311 elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="6696311" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://pagamento.unidades.online/checkout?product=5efd9708-3292-11f0-975a-46da4690ad53">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">COMPRAR 1 UNIDADE</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-21c8a4d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="21c8a4d" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-c1b2bf0 e-con-full e-flex e-con e-child" data-id="c1b2bf0" data-element_type="container">
+                            <div class="elementor-element elementor-element-1be815f e-con-full e-flex e-con e-child" data-id="1be815f" data-element_type="container">
+                                <div class="elementor-element elementor-element-e73e067 elementor-widget elementor-widget-heading" data-id="e73e067" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">UM SAMSUNG GALAXY S24 256GB (1 UNIDADE)</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-54ce655 elementor-widget elementor-widget-heading" data-id="54ce655" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">R$ 188,48</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-edb1ceb e-con-full e-flex e-con e-child" data-id="edb1ceb" data-element_type="container">
+                                <div class="elementor-element elementor-element-981a684 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="981a684" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon elementor-animation-">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-bookmark" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="elementor-icon-box-content">
+                                                <p class="elementor-icon-box-description">Esgotado					</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-ef93b93 elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="ef93b93" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">ESGOTADO</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9ccfc5d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="9ccfc5d" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-12c05cb e-con-full e-flex e-con e-child" data-id="12c05cb" data-element_type="container">
+                            <div class="elementor-element elementor-element-15d62e4 e-con-full e-flex e-con e-child" data-id="15d62e4" data-element_type="container">
+                                <div class="elementor-element elementor-element-eb5df6f elementor-widget elementor-widget-heading" data-id="eb5df6f" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">UM SAMSUNG GALAXY S23 Ultra 256GB (1 UNIDADE)</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-d570c09 elementor-widget elementor-widget-heading" data-id="d570c09" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">R$ 133,22</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-cb51d3e e-con-full e-flex e-con e-child" data-id="cb51d3e" data-element_type="container">
+                                <div class="elementor-element elementor-element-f0b963d elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="f0b963d" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon elementor-animation-">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-bookmark" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="elementor-icon-box-content">
+                                                <p class="elementor-icon-box-description">114 Disponíveis					</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-31c69c9 elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="31c69c9" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://pagamento.unidades.online/checkout?product=undefined">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">COMPRAR 1 UNIDADE</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-33e56da elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="33e56da" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-940df57 e-con-full e-flex e-con e-child" data-id="940df57" data-element_type="container">
+                            <div class="elementor-element elementor-element-76a7ba4 e-con-full e-flex e-con e-child" data-id="76a7ba4" data-element_type="container">
+                                <div class="elementor-element elementor-element-d9fc587 elementor-widget elementor-widget-heading" data-id="d9fc587" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">Dois SAMSUNG GALAXY S23 Ultra 256GB (2 UNIDADES)</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-de169ee elementor-widget elementor-widget-heading" data-id="de169ee" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">R$ 226,47</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-3b598e7 e-con-full e-flex e-con e-child" data-id="3b598e7" data-element_type="container">
+                                <div class="elementor-element elementor-element-7b7e3f3 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="7b7e3f3" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon elementor-animation-">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-bookmark" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="elementor-icon-box-content">
+                                                <p class="elementor-icon-box-description">88 Disponíveis					</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-b2490ca elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="b2490ca" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://pagamento.unidades.online/checkout?product=undefined">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">COMPRAR 2 UNIDADES</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-73eb119 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="73eb119" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-307c666 e-con-full e-flex e-con e-child" data-id="307c666" data-element_type="container">
+                            <div class="elementor-element elementor-element-62a8824 e-con-full e-flex e-con e-child" data-id="62a8824" data-element_type="container">
+                                <div class="elementor-element elementor-element-b83415d elementor-widget elementor-widget-heading" data-id="b83415d" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">UM IPHONE 13 PRO MAX E UM SAMSUNG S23 (2 UNIDADES)</h2>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-616ae17 elementor-widget elementor-widget-heading" data-id="616ae17" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">R$ 336,27</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-e34e427 e-con-full e-flex e-con e-child" data-id="e34e427" data-element_type="container">
+                                <div class="elementor-element elementor-element-6f20a1d elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="6f20a1d" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon elementor-animation-">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-fas-bookmark" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="elementor-icon-box-content">
+                                                <p class="elementor-icon-box-description">Esgotado					</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-a78dcfa elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="a78dcfa" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">ESGOTADO</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-ac988b4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="ac988b4" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-d5036d4 elementor-align-left elementor-hidden-desktop elementor-hidden-tablet elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d5036d4" data-element_type="widget" data-widget_type="icon-list.default">
+                            <div class="elementor-widget-container">
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-exclamation-triangle" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">Cada usuário tem até 17 minutos para realizar a compra enquanto o botão "Comprar" estiver disponível nesta página.</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-box" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M509.5 184.6L458.9 32.8C452.4 13.2 434.1 0 413.4 0H272v192h238.7c-.4-2.5-.4-5-1.2-7.4zM240 0H98.6c-20.7 0-39 13.2-45.5 32.8L2.5 184.6c-.8 2.4-.8 4.9-1.2 7.4H240V0zM0 224v240c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V224H0z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">Produtos novos sem marcas de uso.</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-truck" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">Frete via JadLog  para todo o Brasil.</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-clock" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="elementor-icon-list-text">30 dias para trocas/reembolsos (mal funcionamento/defeitos).</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-702edaa e-grid e-con-boxed e-con e-parent" data-id="702edaa" data-element_type="container" data-settings="{" background_background":" classic"}"="">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-9415f3f e-con-full e-flex e-con e-child" data-id="9415f3f" data-element_type="container" data-settings="{" background_background":" classic"}"="">
+                        <div class="elementor-element elementor-element-26607d8 elementor-widget elementor-widget-heading" data-id="26607d8" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">ÚLTIMOS COMPRADORES</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-92ac2a4 e-con-full e-flex e-con e-child" data-id="92ac2a4" data-element_type="container" data-settings="{" background_background":" classic"}"="">
+                        <div class="elementor-element elementor-element-d234f2c elementor-widget elementor-widget-heading" data-id="d234f2c" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">TOTAL: 3441 COMPRA(S)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-626b5e2 e-flex e-con-boxed e-con e-parent" data-id="626b5e2" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-2b179dd elementor-widget elementor-widget-html" data-id="2b179dd" data-element_type="widget" data-widget_type="html.default">
+                        <div class="elementor-widget-container">
+                            <style>
+                                .custom-table {
+                                    width: 100%;
+                                    border-collapse: collapse;
+                                    text-align: left;
+                                }
+
+                                .custom-table th, .custom-table td {
+                                    border: 1px solid #ddd;
+                                    padding: 8px;
+                                }
+
+                                .custom-table th {
+                                    background-color: #white;
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+                                    font-size: 12px;
+                                }
+
+                                .custom-table td {
+                                    font-size: 12px;
+                                }
+
+                                .custom-table .center {
+                                    text-align: center;
+                                }
+                            </style>
+                            <table class="custom-table">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Data</th>
+                                        <th>Smartphone</th>
+                                        <th class="highlight">Descrição</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            A*****VA<br>SÃO PAULO
+                                        </td>
+                                        <td class="center">16/05/2025</td>
+                                        <td class="center">3 iPhone 12 Pro Max</td>
+                                        <td class="center">Pessoa Física</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            AE*****EV<br>SÃO PAULO
+                                        </td>
+                                        <td class="center">16/05/2025</td>
+                                        <td class="center">3 iPhone 12 Pro Max</td>
+                                        <td class="center">Pessoa Física</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            F*****ER<br>SÃO PAULO
+                                        </td>
+                                        <td class="center">16/05/2025</td>
+                                        <td class="center">1 iPhone 12 Pro Max</td>
+                                        <td class="center">Pessoa Física</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-82099b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="82099b8" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3cd8fba" data-id="3cd8fba" data-element_type="column" data-settings="{" background_background":" classic"}"="">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-c28d00f elementor-widget elementor-widget-heading" data-id="c28d00f" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <p class="elementor-heading-title elementor-size-default">9 Comentários</p>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-45cb2f7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="45cb2f7" data-element_type="widget" data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-91e2922 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="91e2922" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-88724ab" data-id="88724ab" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-9dbea10 elementor-widget elementor-widget-testimonial" data-id="9dbea10" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img decoding="async" width="960" height="948" src="images/443716769_2181730488838024_2651191064652344569_n.jpg" class="attachment-full size-full wp-image-121" alt="" srcset="images/443716769_2181730488838024_2651191064652344569_n.jpg 960w, images/443716769_2181730488838024_2651191064652344569_n-300x296.jpg 300w, images/443716769_2181730488838024_2651191064652344569_n-768x758.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Daniele Valladares</div>
+                                                                    <div class="elementor-testimonial-job">Finalmente esse ano eu consegui comprar 3 iphones 12 pro max pra mim, um sonho realizado</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d1e9418 elementor-widget elementor-widget-text-editor" data-id="d1e9418" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-2df71cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2df71cc" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-29f3a9a" data-id="29f3a9a" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-6561cac elementor-widget elementor-widget-testimonial" data-id="6561cac" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img decoding="async" width="720" height="726" src="images/177023609_143850141022942_2564999834608023782_n.jpg" class="attachment-full size-full wp-image-120" alt="" srcset="images/177023609_143850141022942_2564999834608023782_n.jpg 720w, images/177023609_143850141022942_2564999834608023782_n-298x300.jpg 298w, images/177023609_143850141022942_2564999834608023782_n-150x150.jpg 150w" sizes="(max-width: 720px) 100vw, 720px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Julianna Caranante</div>
+                                                                    <div class="elementor-testimonial-job">Comprei agora meu bebezinho 12 pro max, adoreiii, obrigadaaa</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f20e057 elementor-widget elementor-widget-text-editor" data-id="f20e057" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-bf8bb45 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bf8bb45" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-c3dc611" data-id="c3dc611" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-558f745 elementor-widget elementor-widget-testimonial" data-id="558f745" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="100" height="100" src="images/300761816_2360019167486133_5284913532719603148_n.jpg" class="attachment-full size-full wp-image-129" alt="">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Eduardo Soares</div>
+                                                                    <div class="elementor-testimonial-job">Alguem comprou online e rebeceu tudo certinho na sua casa??</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-7f1885d elementor-widget elementor-widget-text-editor" data-id="7f1885d" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-ed27458 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ed27458" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2492456" data-id="2492456" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-15154db elementor-widget elementor-widget-testimonial" data-id="15154db" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="738" height="736" src="images/249370679_230128475878573_8779625695963922967_n.jpg" class="attachment-full size-full wp-image-125" alt="" srcset="images/249370679_230128475878573_8779625695963922967_n.jpg 738w, images/249370679_230128475878573_8779625695963922967_n-300x300.jpg 300w, images/249370679_230128475878573_8779625695963922967_n-150x150.jpg 150w" sizes="(max-width: 738px) 100vw, 738px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Carmen C</div>
+                                                                    <div class="elementor-testimonial-job">Eduardo Soares Eu e meu marido sim, e minhas amigas da igreja tambem.. Todo ano agente espera chega essa data pra comprar smartphone barato nesse leilão online dos correios.. o nosso chegou com 7 dias aqui em casa, recomendoo!</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-77cc588 elementor-widget elementor-widget-text-editor" data-id="77cc588" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-d5e35f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d5e35f6" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e8ab7e9" data-id="e8ab7e9" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-70785a9 elementor-widget elementor-widget-testimonial" data-id="70785a9" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="100" height="101" src="images/405308721_877031887117578_167456037948502251_n.jpg" class="attachment-full size-full wp-image-133" alt="">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Matheus Rodrigues</div>
+                                                                    <div class="elementor-testimonial-job">Eduardo Soares Sim aqui chego rápido demoro 3 dias, tambem é 100% seguro vem na caixa e nota fiscal, inclusive vale a pena compra até para revender.. opotunidade muito boaa</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-814a703 elementor-widget elementor-widget-text-editor" data-id="814a703" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-2454e5a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2454e5a" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-78c1b3b" data-id="78c1b3b" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-7541dc5 elementor-widget elementor-widget-testimonial" data-id="7541dc5" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="1434" height="2015" src="images/71087621_2524258464263851_417069516606930944_n.jpg" class="attachment-full size-full wp-image-135" alt="" srcset="images/71087621_2524258464263851_417069516606930944_n.jpg 1434w, images/71087621_2524258464263851_417069516606930944_n-213x300.jpg 213w, images/71087621_2524258464263851_417069516606930944_n-729x1024.jpg 729w, images/71087621_2524258464263851_417069516606930944_n-768x1079.jpg 768w, images/71087621_2524258464263851_417069516606930944_n-1093x1536.jpg 1093w" sizes="(max-width: 1434px) 100vw, 1434px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Sofia Augusta</div>
+                                                                    <div class="elementor-testimonial-job">Pessoal que comprou desse, demorou pra enviarem? queria comprar pra presente precisava ser rapido</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-a55a0f5 elementor-widget elementor-widget-text-editor" data-id="a55a0f5" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-5dd1b11 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5dd1b11" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-df3dde4" data-id="df3dde4" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-dd4df9a elementor-widget elementor-widget-testimonial" data-id="dd4df9a" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="1080" height="1080" src="images/392940218_6648388048617954_5715793157015900271_n.jpg" class="attachment-full size-full wp-image-139" alt="" srcset="images/392940218_6648388048617954_5715793157015900271_n.jpg 1080w, images/392940218_6648388048617954_5715793157015900271_n-300x300.jpg 300w, images/392940218_6648388048617954_5715793157015900271_n-1024x1024.jpg 1024w, images/392940218_6648388048617954_5715793157015900271_n-150x150.jpg 150w, images/392940218_6648388048617954_5715793157015900271_n-768x768.jpg 768w" sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Kensly Cabral</div>
+                                                                    <div class="elementor-testimonial-job">Oi Sofia Augusta, o meu foi super rápido! aqui em são paulo chego com 3 dias, eu queria muito um iphone e finalmente consegui comprar..</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f010d8d elementor-widget elementor-widget-text-editor" data-id="f010d8d" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-be18372 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="be18372" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-0aef008" data-id="0aef008" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-d49b70c elementor-widget elementor-widget-testimonial" data-id="d49b70c" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="1080" height="1080" src="images/307852100_2359421324195822_2695340644972363638_n.jpg" class="attachment-full size-full wp-image-140" alt="" srcset="images/307852100_2359421324195822_2695340644972363638_n.jpg 1080w, images/307852100_2359421324195822_2695340644972363638_n-300x300.jpg 300w, images/307852100_2359421324195822_2695340644972363638_n-1024x1024.jpg 1024w, images/307852100_2359421324195822_2695340644972363638_n-150x150.jpg 150w, images/307852100_2359421324195822_2695340644972363638_n-768x768.jpg 768w" sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Patricia Amorim</div>
+                                                                    <div class="elementor-testimonial-job">Sofia Augusta meu chego com 7 dias, rio de janeiro eu moro.. comprei três aproveitei e comprei pra minha filha e filho tambem</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-13f5359 elementor-widget elementor-widget-text-editor" data-id="13f5359" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-0998cd9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0998cd9" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-c09d21b" data-id="c09d21b" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-3be6f5e elementor-widget elementor-widget-testimonial" data-id="3be6f5e" data-element_type="widget" data-widget_type="testimonial.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-testimonial-wrapper">
+                                                        <div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
+                                                            <div class="elementor-testimonial-meta-inner">
+                                                                <div class="elementor-testimonial-image">
+                                                                    <img loading="lazy" decoding="async" width="1080" height="1080" src="images/429674456_982667920084612_132345885977351656_n.jpg" class="attachment-full size-full wp-image-134" alt="" srcset="images/429674456_982667920084612_132345885977351656_n.jpg 1080w, images/429674456_982667920084612_132345885977351656_n-300x300.jpg 300w, images/429674456_982667920084612_132345885977351656_n-1024x1024.jpg 1024w, images/429674456_982667920084612_132345885977351656_n-150x150.jpg 150w, images/429674456_982667920084612_132345885977351656_n-768x768.jpg 768w" sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                </div>
+                                                                <div class="elementor-testimonial-details">
+                                                                    <div class="elementor-testimonial-name">Antonio Gimarães</div>
+                                                                    <div class="elementor-testimonial-job">Boa tarde, acabei de receber meu iphone 12 pro max na caixa lacrado, so não veio o carregador.. mas tabom, carregador é R$10.. obrigado</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-c9bca66 elementor-widget elementor-widget-text-editor" data-id="c9bca66" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>
+                                                        <a href="#">Responder</a>
+                                                        · <a href="#">Curtir</a>
+                                                        · <span style="color: #808080;">1 hr</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="elementor-element elementor-element-411d2b6 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="411d2b6" data-element_type="widget" data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-d4fa72b elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d4fa72b" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div class="elementor-widget-container">
+                                    <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                            <span class="elementor-icon-list-icon">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="elementor-icon-list-text">Plugin de comentários do Facebook</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="elementor-element elementor-element-1f32a04 e-flex e-con-boxed e-con e-parent" data-id="1f32a04" data-element_type="container" data-settings="{" background_background":" classic"}"="">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-c59c024 elementor-widget elementor-widget-heading" data-id="c59c024" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Como faço para comprar?</h2>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-c168523 elementor-widget elementor-widget-n-accordion" data-id="c168523" data-element_type="widget" data-settings="{" default_state":" all_collapsed"," max_items_expended":" multiple"," n_accordion_animation_duration":{" unit":" ms"," size ":400," sizes":[]}}"="" data-widget_type="nested-accordion.default">
+                        <div class="elementor-widget-container">
+                            <div class="e-n-accordion" aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys">
+                                <details id="e-n-accordion-item-2020" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="1" tabindex="0" aria-expanded="false" aria-controls="e-n-accordion-item-2020">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">Em quantos dias eu recebo? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2020" class="elementor-element elementor-element-023d800 e-con-full e-flex e-con e-child" data-id="023d800" data-element_type="container">
+                                        <div class="elementor-element elementor-element-b0dea8e elementor-widget elementor-widget-text-editor" data-id="b0dea8e" data-element_type="widget" data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>Prazo de entrega de até 4 dias úteis para todo Brasil.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2021" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="2" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2021">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">Os smartphones estão quebrados, trincados ou com defeitos? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2021" class="elementor-element elementor-element-a117c02 e-con-full e-flex e-con e-child" data-id="a117c02" data-element_type="container">
+                                        <div class="elementor-element elementor-element-e73831e elementor-widget elementor-widget-text-editor" data-id="e73831e" data-element_type="widget" data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>Não. Separamos apenas produtos novos na caixa ou sem caixa mas em perfeitas condições.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2022" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="3" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2022">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">Quais são as formas de pagamento? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2022" class="elementor-element elementor-element-97f58da e-con-full e-flex e-con e-child" data-id="97f58da" data-element_type="container">
+                                        <div class="elementor-element elementor-element-5255784 elementor-widget elementor-widget-text-editor" data-id="5255784" data-element_type="widget" data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>Cartão de crédito em até 12x ou Pix à vista.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2023" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="4" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2023">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">É possivel comprar pessoalmente? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2023" class="elementor-element elementor-element-1c4f13b e-flex e-con-boxed e-con e-child" data-id="1c4f13b" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-fccd696 elementor-widget elementor-widget-text-editor" data-id="fccd696" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Não. Para adquirir seu smartphone é apenas através deste site.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2024" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="5" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2024">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">Os produtos têm garantia? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2024" class="elementor-element elementor-element-ae6a2c9 e-flex e-con-boxed e-con e-child" data-id="ae6a2c9" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-077b8aa elementor-widget elementor-widget-text-editor" data-id="077b8aa" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Sim! possuem 30 dias de garantia para troca ou reembolso.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2025" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="6" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2025">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">Até que dia fica disponível a oferta? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2025" class="elementor-element elementor-element-baf4ec2 e-flex e-con-boxed e-con e-child" data-id="baf4ec2" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-beb2440 elementor-widget elementor-widget-text-editor" data-id="beb2440" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Até durar nosso estoque de smartphone.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2026" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="7" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2026">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">Qualquer pessoa pode comprar? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2026" class="elementor-element elementor-element-867bcb0 e-flex e-con-boxed e-con e-child" data-id="867bcb0" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-4cb6190 elementor-widget elementor-widget-text-editor" data-id="4cb6190" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Sim! está liberado para qualquer pessoa adquirir enquanto durar nosso estoque.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                                <details id="e-n-accordion-item-2027" class="e-n-accordion-item">
+                                    <summary class="e-n-accordion-item-title" data-accordion-index="8" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-2027">
+                                        <span class="e-n-accordion-item-title-header">
+                                            <div class="e-n-accordion-item-title-text">É cobrado frete ou outras taxas? </div>
+                                        </span>
+                                        <span class="e-n-accordion-item-title-icon">
+                                            <span class="e-opened">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path>
+                                                </svg>
+                                            </span>
+                                            <span class="e-closed">
+                                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </summary>
+                                    <div role="region" aria-labelledby="e-n-accordion-item-2027" class="elementor-element elementor-element-5b913a6 e-flex e-con-boxed e-con e-child" data-id="5b913a6" data-element_type="container">
+                                        <div class="e-con-inner">
+                                            <div class="elementor-element elementor-element-a33a556 elementor-widget elementor-widget-text-editor" data-id="a33a556" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Não. Cobramos apenas o valor do smartphone de uma unidade ou três unidades, e nada mais.. Sem nenhuma taxas ou fretes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-6b4d891 e-flex e-con-boxed e-con e-parent" data-id="6b4d891" data-element_type="container" data-settings="{" background_background":" classic"}"="">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-71dfa60 img elementor-widget elementor-widget-image" data-id="71dfa60" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img fetchpriority="high" decoding="async" width="2560" height="797" src="images/Vivo-roxo.png" class="attachment-full size-full wp-image-377" alt="" srcset="images/Vivo-roxo.png 2560w, images/Vivo-roxo-300x93.png 300w, images/Vivo-roxo-1024x319.png 1024w, images/Vivo-roxo-768x239.png 768w, images/Vivo-roxo-1536x478.png 1536w, images/Vivo-roxo-2048x638.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px">
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-c3d9abb elementor-widget elementor-widget-heading" data-id="c3d9abb" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">CNPJ: 02.558.157/0001-62</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            const lazyloadRunObserver = () => {
+                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+                const lazyloadBackgroundObserver = new IntersectionObserver( (entries) => {
+                    entries.forEach( (entry) => {
+                        if (entry.isIntersecting) {
+                            let lazyloadBackground = entry.target;
+                            if (lazyloadBackground) {
+                                lazyloadBackground.classList.add('e-lazyloaded');
+                            }
+                            lazyloadBackgroundObserver.unobserve(entry.target);
+                        }
+                    }
+                    );
+                }
+                ,{
+                    rootMargin: '200px 0px 200px 0px'
+                });
+                lazyloadBackgrounds.forEach( (lazyloadBackground) => {
+                    lazyloadBackgroundObserver.observe(lazyloadBackground);
+                }
+                );
+            }
+            ;
+            const events = ['DOMContentLoaded', 'elementor/lazyload/observe', ];
+            events.forEach( (event) => {
+                document.addEventListener(event, lazyloadRunObserver);
+            }
+            );
+        </script>
+        <script src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
+        <script src="js/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
+        <script src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+        <script src="js/jquery.min.js" id="jquery-core-js"></script>
+        <script src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+        <script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+        <script src="js/hooks.min.js" id="wp-hooks-js"></script>
+        <script src="js/i18n.min.js" id="wp-i18n-js"></script>
+        <script id="wp-i18n-js-after">
+            wp.i18n.setLocaleData({
+                'text direction\u0004ltr': ['ltr']
+            });
+        </script>
+        <script id="elementor-pro-frontend-js-before">
+            var ElementorProFrontendConfig = {
+                "ajaxurl": "https:\/\/testewordpress.shop\/wp-admin\/admin-ajax.php",
+                "nonce": "b53a0032c9",
+                "urls": {
+                    "assets": "https:\/\/testewordpress.shop\/wp-content\/plugins\/elementor-pro\/assets\/",
+                    "rest": "https:\/\/testewordpress.shop\/wp-json\/"
+                },
+                "settings": {
+                    "lazy_load_background_images": true
+                },
+                "popup": {
+                    "hasPopUps": false
+                },
+                "shareButtonsNetworks": {
+                    "facebook": {
+                        "title": "Facebook",
+                        "has_counter": true
+                    },
+                    "twitter": {
+                        "title": "Twitter"
+                    },
+                    "linkedin": {
+                        "title": "LinkedIn",
+                        "has_counter": true
+                    },
+                    "pinterest": {
+                        "title": "Pinterest",
+                        "has_counter": true
+                    },
+                    "reddit": {
+                        "title": "Reddit",
+                        "has_counter": true
+                    },
+                    "vk": {
+                        "title": "VK",
+                        "has_counter": true
+                    },
+                    "odnoklassniki": {
+                        "title": "OK",
+                        "has_counter": true
+                    },
+                    "tumblr": {
+                        "title": "Tumblr"
+                    },
+                    "digg": {
+                        "title": "Digg"
+                    },
+                    "skype": {
+                        "title": "Skype"
+                    },
+                    "stumbleupon": {
+                        "title": "StumbleUpon",
+                        "has_counter": true
+                    },
+                    "mix": {
+                        "title": "Mix"
+                    },
+                    "telegram": {
+                        "title": "Telegram"
+                    },
+                    "pocket": {
+                        "title": "Pocket",
+                        "has_counter": true
+                    },
+                    "xing": {
+                        "title": "XING",
+                        "has_counter": true
+                    },
+                    "whatsapp": {
+                        "title": "WhatsApp"
+                    },
+                    "email": {
+                        "title": "Email"
+                    },
+                    "print": {
+                        "title": "Print"
+                    },
+                    "x-twitter": {
+                        "title": "X"
+                    },
+                    "threads": {
+                        "title": "Threads"
+                    }
+                },
+                "facebook_sdk": {
+                    "lang": "pt_BR",
+                    "app_id": ""
+                },
+                "lottie": {
+                    "defaultAnimationUrl": "https:\/\/testewordpress.shop\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+                }
+            };
+        </script>
+        <script src="js/frontend.min.js" id="elementor-pro-frontend-js"></script>
+        <script src="js/core.min.js" id="jquery-ui-core-js"></script>
+        <script id="elementor-frontend-js-before">
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false,
+                    "isScriptDebug": false
+                },
+                "i18n": {
+                    "shareOnFacebook": "Compartilhar no Facebook",
+                    "shareOnTwitter": "Compartilhar no Twitter",
+                    "pinIt": "Fixar",
+                    "download": "Baixar",
+                    "downloadImage": "Baixar imagem",
+                    "fullscreen": "Tela cheia",
+                    "zoom": "Zoom",
+                    "share": "Compartilhar",
+                    "playVideo": "Reproduzir v\u00eddeo",
+                    "previous": "Anterior",
+                    "next": "Pr\u00f3ximo",
+                    "close": "Fechar",
+                    "a11yCarouselPrevSlideMessage": "Slide anterior",
+                    "a11yCarouselNextSlideMessage": "Pr\u00f3ximo slide",
+                    "a11yCarouselFirstSlideMessage": "Este \u00e9 o primeiro slide",
+                    "a11yCarouselLastSlideMessage": "Este \u00e9 o \u00faltimo slide",
+                    "a11yCarouselPaginationBulletMessage": "Ir para o slide"
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "responsive": {
+                    "breakpoints": {
+                        "mobile": {
+                            "label": "Dispositivos m\u00f3veis no modo retrato",
+                            "value": 767,
+                            "default_value": 767,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "mobile_extra": {
+                            "label": "Dispositivos m\u00f3veis no modo paisagem",
+                            "value": 880,
+                            "default_value": 880,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "tablet": {
+                            "label": "Tablet no modo retrato",
+                            "value": 1024,
+                            "default_value": 1024,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet_extra": {
+                            "label": "Tablet no modo paisagem",
+                            "value": 1200,
+                            "default_value": 1200,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "laptop": {
+                            "label": "Notebook",
+                            "value": 1366,
+                            "default_value": 1366,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "widescreen": {
+                            "label": "Tela ampla (widescreen)",
+                            "value": 2400,
+                            "default_value": 2400,
+                            "direction": "min",
+                            "is_enabled": false
+                        }
+                    },
+                    "hasCustomBreakpoints": false
+                },
+                "version": "3.26.4",
+                "is_static": false,
+                "experimentalFeatures": {
+                    "e_font_icon_svg": true,
+                    "additional_custom_breakpoints": true,
+                    "container": true,
+                    "e_swiper_latest": true,
+                    "e_nested_atomic_repeaters": true,
+                    "e_onboarding": true,
+                    "e_css_smooth_scroll": true,
+                    "theme_builder_v2": true,
+                    "hello-theme-header-footer": true,
+                    "home_screen": true,
+                    "nested-elements": true,
+                    "editor_v2": true,
+                    "e_element_cache": true,
+                    "link-in-bio": true,
+                    "floating-buttons": true,
+                    "launchpad-checklist": true
+                },
+                "urls": {
+                    "assets": "https:\/\/testewordpress.shop\/wp-content\/plugins\/elementor\/assets\/",
+                    "ajaxurl": "https:\/\/testewordpress.shop\/wp-admin\/admin-ajax.php",
+                    "uploadUrl": "https:\/\/testewordpress.shop\/wp-content\/uploads"
+                },
+                "nonces": {
+                    "floatingButtonsClickTracking": "ab3768fb14"
+                },
+                "swiperClass": "swiper",
+                "settings": {
+                    "page": [],
+                    "editorPreferences": []
+                },
+                "kit": {
+                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                    "global_image_lightbox": "yes",
+                    "lightbox_enable_counter": "yes",
+                    "lightbox_enable_fullscreen": "yes",
+                    "lightbox_enable_zoom": "yes",
+                    "lightbox_enable_share": "yes",
+                    "lightbox_title_src": "title",
+                    "lightbox_description_src": "description",
+                    "hello_header_logo_type": "title",
+                    "hello_footer_logo_type": "logo"
+                },
+                "post": {
+                    "id": 11,
+                    "title": "Leil%C3%A3o%20%E2%80%93%20Noticias%20leil%C3%A3o",
+                    "excerpt": "",
+                    "featuredImage": false
+                }
+            };
+        </script>
+        <script src="js/frontend.min_1.js" id="elementor-frontend-js"></script>
+        <script src="js/elements-handlers.min.js" id="pro-elements-handlers-js"></script>
+    </body>
+</html>
